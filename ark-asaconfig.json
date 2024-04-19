@@ -188,6 +188,30 @@
         "EnumValues":{}
     },
 	{
+        "DisplayName":"Custom Command Line Flags",
+        "Category":"ARK Server Settings",
+        "Description":"Sets custom [command line flags](https://ark.wiki.gg/wiki/Server_configuration_(Survival_Ascended%29) for the server (those that start with a - (dash)). Include the dash and separate with a space. Don't use flags already in AMP's settings!",
+        "Keywords":"custom,command,line,flags",
+        "FieldName":"CustomFlags",
+        "InputType":"text",
+        "ParamFieldName":"CustomFlags",
+        "DefaultValue":"",
+        "Placeholder":"-UseItemDupeCheck -UseSecureSpawnRules",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"Custom Command Line Options",
+        "Category":"ARK Server Settings",
+        "Description":"Sets custom [command line options](https://ark.wiki.gg/wiki/Server_configuration_(Survival_Ascended%29) for the server (those that start with a ? (question mark)). Include the question mark but do not separate with a space. Don't use options already in AMP's settings!",
+        "Keywords":"custom,command,line,options",
+        "FieldName":"CustomOptions",
+        "InputType":"text",
+        "ParamFieldName":"CustomOptions",
+        "DefaultValue":"",
+        "Placeholder":"?ClampItemStats=True?NewYear1UTC=1672592400",
+        "EnumValues":{}
+    },
+	{
         "DisplayName":"Cluster Directory Override",
         "Category":"ARK Cluster Settings",
         "Description":"Sets the path to a shared cluster directory for a server cluster. The cluster directory must be accessible to all cluster servers. If the server is in Docker, the directory must be mounted in the container",
